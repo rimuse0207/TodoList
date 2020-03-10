@@ -54,7 +54,7 @@ const TodoInsert = ({ onInsert }) => {
   return (
     <TodoInserts onSubmit={onSubmit}>
       <Input
-        placeholder="할일을 입력하세요."
+        placeholder="Please Enter Your TodoList."
         value={value}
         onChange={onChange}
       ></Input>

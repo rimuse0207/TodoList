@@ -25,7 +25,7 @@ const Content = styled.div`
 const TodoTemplate = ({ children }) => {
   return (
     <TodoTemplates>
-      <Title>일정 관리</Title>
+      <Title>Today List</Title>
       <Content>{children}</Content>
     </TodoTemplates>
   );
